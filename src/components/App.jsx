@@ -3,7 +3,6 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Note from "./Note.jsx";
 import CreateArea from "./CreateArea.jsx";
-import notes from "../notes.js";
 
 function App(){
     const [notesArray,setNote] = useState([]);
